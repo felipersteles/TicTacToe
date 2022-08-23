@@ -27,6 +27,5 @@ form.addEventListener('submit', (e) => {
         errorElement.innerText = messages.join('\n')
     } else{
         window.location.href = "game.html";
-        confronto.innerText = player1 + "\nVS\n" + player2
     }
 })
