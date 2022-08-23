@@ -8,8 +8,57 @@
     --mark-size: calc(var(--cell-size)* .9)
 }
 
-body {
+body{
     margin: 0;
+    height: 100%;
+}
+
+.login-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    height: 100%;
+}
+
+
+.confronto{
+    font-size: 50px;
+}
+
+.logo{
+    padding: 50px;
+}
+
+.registro{ 
+    padding: 5px;
+    border: 1px solid black;
+
+    border-radius: 30px;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.registro:first-child{
+    padding: 5px;
+}
+
+.entrar{
+    color: black;
+    background: gray;
+    
+    padding: 35px;
+    width: 75px;
+    border: none;
+    border-radius: 30px;
+
+    
+    padding: 5px;
+    font-size: 17px;
 }
 
 .board {

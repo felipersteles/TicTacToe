@@ -1,33 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Felipe Teles">
 
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 
     <title>Jogo da velha</title>
 </head>
-<body>
-    <div class="board" id="board">
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-    </div>
-    <div id="winningMessage" class="winning-message">
-        <div data-winning-message-text></div>
-        <button id="restartButton">Restart</button>
-    </div>
 
+<body id="login-page" class="login-page">
+
+    <img id="logo" src="img/logo.svg" class="logo">
+    <form id="form">
+        <div id="error"></div>
+        <div class="registro">
+            <input style="border: none;outline: none; margin-left: 18px;" placeholder="Primeiro jogador" 
+            id="player1" type="player1" name="player1">
+        </div>
+        <br>
+        <div class="registro">
+            <input style="border: none;outline: none; margin-left: 18px;" placeholder="Segundo jogador" 
+            id="player2" type="player2" name="player2">
+        </div>
+        <div style="padding:35px">
+            <button type="submit" class="entrar">Jogar</button>
+        </div>
+    </form>
 </body>
+
 </html>
